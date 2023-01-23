@@ -5,7 +5,7 @@
   <img style="border-radius:10%" width="100%" height="400" src="public/capa.png" alt="exemplo imagem">
 </p>
 
-> Desafio 01 - Blog da Codelandia.
+> Teste de CRUD para empresa IBS.
 
 ## 💻 Pré-requisitos
 
@@ -24,26 +24,65 @@ Clone este repositório
 git clone <nome do repositorio>
 ```
 
-Instale as dependencias
+## ☕ Usando Teste IBS
+
+Para usar o Teste, siga estas etapas:
+
+1 - Entre na pasta API
 ```
-npm install 
+cd api
 ```
 
-## ☕ Usando Blog
+2 - Instale as dependencias da API
+```
+npm install
+```
 
-Para usar Blog, siga estas etapas:
-
-1 - Inicie a API 
+3 - Inicie a API 
 
 ```
 npm run dev
 ```
 
-2 - Inicie o Frontend 
+
+4 - Entre na pasta do Frontend
+```
+npm install
+```
+
+
+5 - Instale as dependencias do Frontend
+```
+npm install
+```
+
+4 - Inicie o Frontend 
 
 ```
 npm run dev
 ```
+
+## ✅ Features
+
+Pessoa:  
+Listar Pessoas.  
+Criar Pessoa.  
+Editar Pessoa.  
+Remover Pessoa.  
+
+Profissão:  
+Listar Profissões.  
+Criar Profissão.  
+Editar Profissão.  
+Remover Profissão.  
+
+## Tecnologias   
+* Nuxt 3. 
+* Vue 3.
+* Typescript. 
+* TailwindCSS.
+* NodeJS.  
+* Express.  
 
 ## 🤝 Colaboradores
 
@@ -66,4 +105,4 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#Teste IBS)<br>
+[⬆ Voltar ao topo](#TesteIBS)<br>
