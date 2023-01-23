@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="max-w-screen-xl flex flex-col items-center justify-start h-screen py-10 bg-gray-50">
+    <div class="max-w-screen-xl flex flex-col items-center mx-auto justify-start h-screen py-10 bg-white">
       <NuxtLink to="/profession" class="text-3xl font-bold underline">
         Voltar
       </NuxtLink>

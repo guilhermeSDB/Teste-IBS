@@ -55,7 +55,6 @@ async function getProfessionById(){
 }
 
 async function saveProfession() {
-  debugger
   const uri = isEditForm.value ? `/profession/${props.id}` : '/profession';
   const method = isEditForm.value ? 'PUT' : 'POST';
 

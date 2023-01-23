@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="max-w-screen-xl flex flex-col items-center justify-start h-screen py-10 bg-gray-50">
+    <div class="max-w-screen-xl flex flex-col items-center justify-start h-screen mx-auto py-10 bg-white">
       <NuxtLink to="/person" class="text-3xl font-bold underline">
         Voltar
       </NuxtLink>
@@ -26,7 +26,8 @@
     
           <div>
             <span class="font-bold text-xs uppercase tracking-widest">Profissão</span>
-            <h1 class="">{{ person.profession.name }}</h1>
+            <h1 v-if="person.profession" class="">{{ person.profession.name }}</h1>
+            <div v-else class="font-light italic"> * Profissão não cadastrada *</div>
           </div>
         </div>
   

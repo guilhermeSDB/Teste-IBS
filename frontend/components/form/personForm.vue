@@ -88,11 +88,6 @@ const person = reactive<IPerson>({
   },
 });
 
-watch(
-  () => person,
-  (newPerson) =>{
-    console.log(newPerson);
-  })
 
 function setEditForm() {
   if(props.id !== ''){
@@ -113,7 +108,6 @@ async function getProfessions() {
 }
 
 async function getPersonById(){
-  console.log('Passou por aqui: GetPersonById');
   await useFetch(api + `/person/${props.id}`,{
     method: 'GET',
   })
@@ -124,12 +118,9 @@ async function getPersonById(){
 }
 
 async function savePerson() {
-  console.log(isEditForm.value);
   const uri = isEditForm.value ? `/person/${props.id}` : '/person';
   const method = isEditForm.value ? 'PUT' : 'POST';
-  console.log(method);
-  console.log(uri);
-  debugger
+
   await useFetch(api + uri, 
   { 
     method: method,

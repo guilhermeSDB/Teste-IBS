@@ -5,8 +5,10 @@
     <div>
       <h1 class="text-lg font-bold">{{ data.name }}</h1>
 
-      <div>Profissão: 
-        <span> {{ data.profession.name }}</span>
+      <div class="flex">
+        Profissão:  
+        <span v-if="data.profession !== null"> {{ data.profession.name }}</span>
+        <div v-else class="font-light italic"> * Profissão não cadastrada *</div>
       </div>
     </div>
   </div>
