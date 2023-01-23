@@ -83,6 +83,9 @@ Remover Profissão.
 * TailwindCSS.
 * NodeJS.  
 * Express.  
+* Mongoose.  
+* MongoDB. 
+* MongoAtlas. 
 
 ## 🤝 Colaboradores
 
