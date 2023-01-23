@@ -62,6 +62,14 @@ npm install
 npm run dev
 ```
 
+## 🧪 Teste Unitario
+
+Backend:
+```
+npm run dev
+npm run test
+```
+
 ## ✅ Features
 
 Pessoa:  

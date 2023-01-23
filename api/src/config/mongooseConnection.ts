@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
-import router from '../router';
 import express from 'express';
 import database from './db';
+import router from '../router';
 import app from '../app';
 
 mongoose.set("strictQuery", false);
