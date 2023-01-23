@@ -16,7 +16,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 ## 🚀 Instalando Teste IBS
 
-Para instalar o Blog, siga estas etapas:
+Para instalar o Teste, siga estas etapas:
 
 
 Clone este repositório
@@ -24,7 +24,7 @@ Clone este repositório
 git clone <nome do repositorio>
 ```
 
-## ☕ Usando Teste IBS
+## ☕ Usando o Teste IBS
 
 Para usar o Teste, siga estas etapas:
 
@@ -76,7 +76,7 @@ Criar Profissão.
 Editar Profissão.  
 Remover Profissão.  
 
-## Tecnologias   
+## 🧑🏻‍💻 Tecnologias   
 * Nuxt 3. 
 * Vue 3.
 * Typescript. 
